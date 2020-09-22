@@ -56,7 +56,7 @@ public class WebScraping {
     }
 
 
-    //Método para retornar o valor da quantidade de estrela que o livro tem. de 1 a 5.
+    //Método para retornar o valor da quantidade de estrelas que o livro tem. *de 1 a 5.*
     private static Integer retornarEstrelas(String nomeClass) {
 
         Map<String, Integer>  listaRating = new HashMap<String, Integer>(5);
