@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class Books {
 
-    private UUID uuid = UUID.randomUUID();
+    private final UUID uuid = UUID.randomUUID();
     private final String titulo;
     private final String preco;
     private final Integer estrelas;
