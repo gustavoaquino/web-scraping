@@ -1,4 +1,4 @@
-package Amazon;
+package tool.scraper.service.scraping.amazon;
 
 public class Produto {
 

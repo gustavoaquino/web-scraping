@@ -1,4 +1,4 @@
-package BooksToScrape;
+package tool.scraper.service.scraping.bookstoscrape;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -10,18 +10,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class WebScraping {
 
-    /**
-     *
-     * @author Gustavo Aquino
-     * @since 20/09/2020
-     *
-     * Site: http://books.toscrape.com/
-     * Algoritmo com o objetivo de capturar os dados de uma página web utilizando o JSoup.
-     *
-     *
-     * */
+/**
+ * @author Gustavo Aquino
+ * @since 20/09/2020
+ *
+ * Site: http://books.toscrape.com/
+ */
+
+public class BookToScraperScraping {
 
     private static final String URL = "http://books.toscrape.com";
 
@@ -35,7 +32,7 @@ public class WebScraping {
         Document document = response.parse();
 
         //Inicialização de uma lista de livros.
-        List<Books> listaLivros = new ArrayList<Books>();
+        List<Books> listaLivros = new ArrayList<>();
 
         int x = 0;
 

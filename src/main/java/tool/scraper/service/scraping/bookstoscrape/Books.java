@@ -1,4 +1,4 @@
-package BooksToScrape;
+package tool.scraper.service.scraping.bookstoscrape;
 
 import java.util.UUID;
 
